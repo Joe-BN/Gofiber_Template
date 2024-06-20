@@ -39,5 +39,7 @@ func ConnectDB() {
 
 	// Migrate the database
 	DB.AutoMigrate(&model.Note{})
-	fmt.Println("Database Migrated")
+	//where to add the other tables defined in models
+
+	fmt.Println("Databases Migrated")
 }
