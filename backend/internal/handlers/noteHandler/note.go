@@ -128,4 +128,3 @@ func DeleteNote(c *fiber.Ctx) error {
     // Return success message
     return c.JSON(fiber.Map{"status": "success", "message": "Deleted Note"})
 }
-
